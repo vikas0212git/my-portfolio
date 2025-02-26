@@ -1,1 +1,1 @@
-This is repo to publish my portfolio 
+This is repo to publish my portfolio. 
