@@ -74,7 +74,7 @@ section {
     border-radius: 5px;
 }
 
-/* Header: Company Name on Left & Job Details on Right */
+/* Header: Company Name on Left & Job Detailsin Center on location on Right */
 .experience-header {
     display: flex;
     justify-content: space-between;
@@ -90,6 +90,15 @@ section {
     flex: 1;
 }
 
+/* Job Title */
+.experience-header h4 {
+    font-size: 18px;
+    text-align: center;
+    color: #0a0a0a;
+    margin: 5px 0;
+    font-weight: normal;
+    flex: 2;
+}
 /* Experience Details (Title, Location, Time Worked) */
 .experience-details {
     text-align: right;
@@ -139,4 +148,59 @@ footer {
     color: white;
     padding: 10px;
     margin-top: 20px;
+}
+/* Tech Stack Section */
+#Tech\ Stack {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tech Stack Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 5px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+th {
+    background-color: #0073e6;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(even) td {
+    background-color: #e9e9e9;
+}
+
+tr:hover td {
+    background-color: #d1e0ff;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+    #Tech\ Stack {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    th, td {
+        padding: 10px;
+    }
 }
